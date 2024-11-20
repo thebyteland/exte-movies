@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-slate-600">
+  <div class="w-full bg-slate-600 bg-gradient-to-b from-slate-600 to-gray-300">
     <div class="flex flex-col w-full max-w-screen-xl mx-auto p-4">
       <ExteNavBar />
       <NuxtPage class="min-h-[90vh] py-4"/>

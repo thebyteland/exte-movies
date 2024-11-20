@@ -1,7 +1,9 @@
 <template>
-  <div class="w-full">
+  <main class="w-full flex flex-col gap-4">
     <h1>{{ $t('APP') }}</h1>
-  </div>
+
+    <ExteMoviesList />
+  </main>
 </template>
 
 <script setup>

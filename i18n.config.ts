@@ -11,6 +11,7 @@ export default defineI18nConfig(() => ({
       MY_LIST_LINK: 'My list',
       HOME_LINK: 'Home',
       FOOTER_TEXT: 'Exte Movies - By Adrián Jiménez Martín',
+      MOVIES_LIST_SECTION_TITLE: 'All movies',
     },
     es: {
       APP: 'EXTE Movies',
@@ -20,6 +21,7 @@ export default defineI18nConfig(() => ({
       MY_LIST_LINK: 'Mi lista',
       HOME_LINK: 'Inicio',
       FOOTER_TEXT: 'Exte Movies - Hecho por Adrián Jiménez Martín',
+      MOVIES_LIST_SECTION_TITLE: 'Todas las películas',
     }
   }
 }))
