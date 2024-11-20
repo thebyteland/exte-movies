@@ -6,7 +6,7 @@
     @click="goToDetail(movie.id)"
   > 
     <p class="absolute bottom-0 w-full h-1/2 rouned-b-lg bg-amber-400/80 p-2 text-black text-xl text-balance group-hover:bg-amber-600">
-      {{ movie.original_title }}
+      {{ movie.title }}
     </p>
   </button>
 </template>
@@ -25,7 +25,7 @@
     if (id) {
       const router = useRouter()
 
-      router.push(`details/${id}`)
+      router.push(`/details/${id}`)
     }
   }
 </script>

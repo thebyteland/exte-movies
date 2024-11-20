@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     secretToken: process.env.API_TOKEN,
     public: {
       moviesPath: process.env.API_MOVIES_PATH,
+      detailPath: process.env.API_DETAIL_PATH,
       imagesPath: process.env.API_IMAGES_PATH
     }
   },

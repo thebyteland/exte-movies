@@ -12,6 +12,9 @@ export default defineI18nConfig(() => ({
       HOME_LINK: 'Home',
       FOOTER_TEXT: 'Exte Movies - By Adrián Jiménez Martín',
       MOVIES_LIST_SECTION_TITLE: 'All movies',
+      MOVIE_DETAIL_OVERVIEW: 'Overview',
+      MOVIE_DETAIL_GENRES: 'Genres',
+      MOVIE_DETAIL_PRODUCTION: 'Production companies',
     },
     es: {
       APP: 'EXTE Movies',
@@ -22,6 +25,9 @@ export default defineI18nConfig(() => ({
       HOME_LINK: 'Inicio',
       FOOTER_TEXT: 'Exte Movies - Hecho por Adrián Jiménez Martín',
       MOVIES_LIST_SECTION_TITLE: 'Todas las películas',
+      MOVIE_DETAIL_OVERVIEW: 'Sinopsis',
+      MOVIE_DETAIL_GENRES: 'Géneros',
+      MOVIE_DETAIL_PRODUCTION: 'Productoras',
     }
   }
 }))
