@@ -71,3 +71,5 @@ Para gestionar el estado interno de la app he utilizado `Pinia` en lugar de `Vue
 He intentado abordar todos los puntos relevantes pero es cierto que no es una prueba de 1 o 2 horas por lo que he intentado priorizar la funcionalidad general teniendo en cuenta el manejo de routing, creación de componentes y su relación con la información de datos de la aplicación mediante props o acceso a `Pinia`, maquetación con `Tailwind` para que tenga un aspecto "atractivo (No soy diseñador, disculpad los colores)" pero sobre todo pensando en que haya armonía entre los elementos, sufiencte separación y se vea bien en diferentes tamaños de pantalla.
 
 También he incluído que las llamadas a la API se hagan siempre desde servidor para dar robusted a una escalidabilidad donde se tuviera en cuenta seguridad y utilizar modelos de datos, normalizadores y gestiones de caché de llamadas.
+
+En la organización del repositorio he seguido `GitFlow` en cuanto a la nomenclatura de commits, por tener alguna organización aunque sea básica.
