@@ -5,8 +5,8 @@ export default defineI18nConfig(() => ({
   messages: {
     en: {
       APP: 'EXTE Movies',
-      LANG_ES: 'Spanish',
-      LANG_EN: 'English',
+      LANG_ES: 'SP',
+      LANG_EN: 'EN',
       MY_LIST_TITLE: 'My movies',
       MY_LIST_LINK: 'My list',
       HOME_LINK: 'Home',
@@ -15,11 +15,14 @@ export default defineI18nConfig(() => ({
       MOVIE_DETAIL_OVERVIEW: 'Overview',
       MOVIE_DETAIL_GENRES: 'Genres',
       MOVIE_DETAIL_PRODUCTION: 'Production companies',
+      ADD_FAV_BUTTON: 'Add to my list',
+      ADD_TO_LIST_TITLE: 'Want to add this movie to your list?',
+      MY_MOVIES_EMPTY_LIST: 'You have no movies in your list',
     },
     es: {
       APP: 'EXTE Movies',
-      LANG_ES: 'Español',
-      LANG_EN: 'Inglés',
+      LANG_ES: 'ES',
+      LANG_EN: 'EN',
       MY_LIST_TITLE: 'Mis películas',
       MY_LIST_LINK: 'Mi lista',
       HOME_LINK: 'Inicio',
@@ -28,6 +31,9 @@ export default defineI18nConfig(() => ({
       MOVIE_DETAIL_OVERVIEW: 'Sinopsis',
       MOVIE_DETAIL_GENRES: 'Géneros',
       MOVIE_DETAIL_PRODUCTION: 'Productoras',
+      ADD_FAV_BUTTON: 'Añadir a mi lista',
+      ADD_TO_LIST_TITLE: '¿Quieres añadir esta película a tu lista?',
+      MY_MOVIES_EMPTY_LIST: 'No tienes películas en tu lista',
     }
   }
 }))

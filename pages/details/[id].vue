@@ -42,6 +42,11 @@
         </div>
       </div>
     </section>
+
+    <section class="flex flex-col gap-4 w-full rounded-lg shadow-sm border border-gray-300 bg-gray-200 overflow-hidden p-4">
+      <h2 class="text-center">{{ $t('ADD_TO_LIST_TITLE') }}</h2>
+      <ExteToggleFavMovie :movie="currentMovie" />
+    </section>
   </main>
 </template>
 
