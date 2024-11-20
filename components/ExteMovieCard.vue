@@ -5,8 +5,8 @@
     :style="{ backgroundImage: `url(${movieImage})` }"
     @click="goToDetail(movie.id)"
   > 
-    <p class="absolute bottom-0 w-full h-1/2 rouned-b-lg bg-amber-400/80 p-2 text-black text-xl text-balance group-hover:bg-amber-600">
-      {{ movie.title }}
+    <p class="absolute bottom-0 w-full h-1/2 rouned-b-lg bg-amber-400/80 p-2 text-black text-xl text-balance font-bold group-hover:bg-amber-600">
+      {{ movieTitle }}
     </p>
   </button>
 </template>
@@ -19,6 +19,9 @@
   const { movie } = toRefs(props)
   const movieImage = computed(() => 
     `${config.public.imagesPath}${movie.value.backdrop_path}`
+  )
+  const movieTitle = computed(() => 
+    `${movie.value.title} (${new Date(movie.value.release_date).getFullYear()})`
   )
 
   function goToDetail(id = '') {
