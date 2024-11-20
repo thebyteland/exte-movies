@@ -1,6 +1,6 @@
 <template>
   <main class="w-full flex flex-col gap-8">
-    <h1>{{ currentMovie.title }}</h1>
+    <h1>{{ movieTitle }}</h1>
 
     <section class="w-full rounded-lg shadow-sm border border-gray-300 bg-gray-200 overflow-hidden">
       <div class="w-full flex flex-col md:flex-row gap-4">
@@ -54,5 +54,8 @@
 
   const movieImage = computed(() => 
     `${config.public.imagesPath}${currentMovie.backdrop_path}`
+  )
+  const movieTitle = computed(() => 
+    `${currentMovie.title} (${new Date(currentMovie.release_date).getFullYear()})`
   )
 </script>
